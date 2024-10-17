@@ -198,25 +198,25 @@ $$ H(\text{🔳-🔳}) = -\frac{5}{12} \log_2(\frac{5}{12} ) \approx 0.5262 $$
 
 ### Inverted normalization
 
-$$ 🔳-🟩: 0.1813 $$
+$$ \text{🔳-🟩}: 0.1813 $$
 
-$$ 🔳-🟨: 0.1813 $$
+$$ \text{🔳-🟨}: 0.1813 $$
 
-$$ 🔳-🟪: 0.1813 $$
+$$ \text{🔳-🟪}: 0.1813 $$
 
-$$ 🟨-🟩: 0.7271 $$
+$$ \text{🟨-🟩}: 0.7271 $$
 
-$$ 🟪-🟨: 0.7271 $$
+$$ \text{🟪-🟨}: 0.7271 $$
 
-$$ 🟩-🟪: 0.7271 $$
+$$ \text{🟩-🟪}: 0.7271 $$
 
-$$ 🟩-🟩: 1.0000 $$
+$$ \text{🟩-🟩}: 1.0000 $$
 
-$$ 🟪-🟪: 1.0000 $$
+$$ \text{🟪-🟪}: 1.0000 $$
 
-$$ 🟨-🟨: 1.0000 $$
+$$ \text{🟨-🟨}: 1.0000 $$
 
-$$ 🔳-🔳: 0.0000 $$
+$$ \text{🔳-🔳}: 0.0000 $$
 
 After an inverted normalization, the small entropies are highlighted since they represent the relationships that provide the most information. In the graphical representation, the rarest relationships are the brightest and thickest. Conversely, the relationships that provide less information (recurrent ones) are darker and thiner.
 
