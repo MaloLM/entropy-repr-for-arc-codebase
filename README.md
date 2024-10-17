@@ -174,7 +174,6 @@ $$
 
 🔳-🔳 : $ p = \frac{15}{36} \approx 0.4167 $
 
-
 ### Entropy Calculation
 
 $ H(\text{🟩-🔳}) = -\frac{1}{6} \log_2\left(\frac{1}{6}\right) \approx 0.4308 $
@@ -218,6 +217,13 @@ $ H(\text{🔳-🔳}) = -\frac{5}{12} \log_2(\frac{5}{12} ) \approx 0.5262 $
 🟨-🟨: 1.0000
 
 🔳-🔳: 0.0000
+
+$$
+\begin{align*}
+2x - 5y &=  8 \\
+3x + 9y &=  -12
+\end{align*}
+$$
 
 After an inverted normalization, the small entropies are highlighted since they represent the relationships that provide the most information. In the graphical representation, the rarest relationships are the brightest and thickest. Conversely, the relationships that provide less information (recurrent ones) are darker and thiner.
 
