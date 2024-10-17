@@ -188,11 +188,11 @@ $$ H(\text{🟪-🟨}) = -\frac{1}{36} \log_2\left(\frac{1}{36}\right) \approx 0
 
 $$ H(\text{🟪-🟩}) = -\frac{1}{36} \log_2\left(\frac{1}{36}\right) \approx 0.1436 $$
 
-$$ H(\text{🟩-🟩}) = 0 $$ (because $$ p = 0 $$)
+$$ H(\text{🟩-🟩} = 0 (because = 0 )) $$
 
-$$ H(\text{🟪-🟪}) = 0 $$ (because $$ p = 0 $$)
+$$ H(\text{🟪-🟪} = 0 (because = 0 )) $$
 
-$$ H(\text{🟨-🟨}) = 0 $$ (because $$ p = 0 $$)
+$$ H(\text{🟨-🟨} = 0 (because = 0 )) $$
 
 $$ H(\text{🔳-🔳}) = -\frac{5}{12} \log_2(\frac{5}{12} ) \approx 0.5262 $$
 
