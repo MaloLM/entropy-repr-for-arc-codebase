@@ -146,11 +146,12 @@ Using the probabilities calculated in the previous step, we apply the entropy fo
 
 ### Step 3: Inverted normalization of entropies
 
-Final step implies to invert values and normalies them.
+Final step implies to invert values and normalies them using below formula:
 
 $$
-\text{normalized\_entropy} = 1 - \frac{H - H_{\text{min}}}{H_{\text{max}} - H_{\text{min}}}
+\text{normalized entropy} = 1 - \frac{H - H_{\text{min}}}{H_{\text{max}} - H_{\text{min}}}
 $$
+
 
 ### Probability Calculation
 
@@ -272,6 +273,7 @@ As you may notice, no machine learning model is specified in this approach. This
 In this small paper, we have only discussed small examples, so it may not be apparent, but the number of connections between nodes increases exponentially as the number of nodes increases. The following formula describes the number of edges as a function of the number of nodes, represented by the variable $ n $:
 
 $$ {\displaystyle \sum _{i=1}^{n}\left(n-i\right)=\sum _{i=1}^{n-1}i={\frac {n(n-1)}{2}}} $$
+
 
 The dominant term in this expression is $ n^2 $, so we can say that the complexity in terms of asymptotic growth is $ O(n^2) $.
 
