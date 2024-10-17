@@ -152,45 +152,72 @@ $$
 \text{normalized entropy} = 1 - \frac{H - H_{\text{min}}}{H_{\text{max}} - H_{\text{min}}}
 $$
 
-
 ### Probability Calculation
 
-1. `🟩-🔳 = 🔳-🟩` : $ p = \frac{6}{36} = \frac{1}{6} $
-2. `🟨-🔳 = 🔳-🟨` : $ p = \frac{6}{36} = \frac{1}{6} $
-3. `🟪-🔳 = 🔳-🟪` : $ p = \frac{6}{36} = \frac{1}{6} $
-4. `🟩-🟨 = 🟨-🟩` : $ p = \frac{1}{36} $
-5. `🟪-🟨 = 🟨-🟪` : $ p = \frac{1}{36} $
-6. `🟪-🟩 = 🟩-🟪` : $ p = \frac{1}{36} $
-7. `🟩-🟩` : $ p = \frac{0}{36} = 0 $
-8. `🟪-🟪` : $ p = \frac{0}{36} = 0 $
-9. `🟨-🟨` : $ p = \frac{0}{36} = 0 $
-10. `🔳-🔳` : $ p = \frac{15}{36} \approx 0.4167 $
+🟩-🔳 = 🔳-🟩 : $ p = \frac{6}{36} = \frac{1}{6} $
+
+🟨-🔳 = 🔳-🟨 : $ p = \frac{6}{36} = \frac{1}{6} $
+
+🟪-🔳 = 🔳-🟪 : $ p = \frac{6}{36} = \frac{1}{6} $
+
+🟩-🟨 = 🟨-🟩 : $ p = \frac{1}{36} $
+
+🟪-🟨 = 🟨-🟪 : $ p = \frac{1}{36} $
+
+🟪-🟩 = 🟩-🟪 : $ p = \frac{1}{36} $
+
+🟩-🟩 : $ p = \frac{0}{36} = 0 $
+
+🟪-🟪 : $ p = \frac{0}{36} = 0 $
+
+🟨-🟨 : $ p = \frac{0}{36} = 0 $
+
+🔳-🔳 : $ p = \frac{15}{36} \approx 0.4167 $
+
 
 ### Entropy Calculation
 
-1. $ H(\text{🟩-🔳}) = -\frac{1}{6} \log_2\left(\frac{1}{6}\right) \approx 0.4308 $
-2. $ H(\text{🟨 🔳}) = -\frac{1}{6} \log_2\left(\frac{1}{6}\right) \approx 0.4308 $
-3. $ H(\text{🟪-🔳}) = -\frac{1}{6} \log_2\left(\frac{1}{6}\right) \approx 0.4308 $
-4. $ H(\text{🟩-🟨}) = -\frac{1}{36} \log_2\left(\frac{1}{36}\right) \approx 0.1436 $
-5. $ H(\text{🟪-🟨}) = -\frac{1}{36} \log_2\left(\frac{1}{36}\right) \approx 0.1436 $
-6. $ H(\text{🟪-🟩}) = -\frac{1}{36} \log_2\left(\frac{1}{36}\right) \approx 0.1436 $
-7. $ H(\text{🟩-🟩}) = 0 $ (because $ p = 0 $)
-8. $ H(\text{🟪-🟪}) = 0 $ (because $ p = 0 $)
-9. $ H(\text{🟨-🟨}) = 0 $ (because $ p = 0 $)
-10. $ H(\text{🔳-🔳}) = -\frac{5}{12} \log_2(\frac{5}{12} ) \approx 0.5262 $
+$ H(\text{🟩-🔳}) = -\frac{1}{6} \log_2\left(\frac{1}{6}\right) \approx 0.4308 $
+
+$ H(\text{🟨 🔳}) = -\frac{1}{6} \log_2\left(\frac{1}{6}\right) \approx 0.4308 $
+
+$ H(\text{🟪-🔳}) = -\frac{1}{6} \log_2\left(\frac{1}{6}\right) \approx 0.4308 $
+
+$ H(\text{🟩-🟨}) = -\frac{1}{36} \log_2\left(\frac{1}{36}\right) \approx 0.1436 $
+
+$ H(\text{🟪-🟨}) = -\frac{1}{36} \log_2\left(\frac{1}{36}\right) \approx 0.1436 $
+
+$ H(\text{🟪-🟩}) = -\frac{1}{36} \log_2\left(\frac{1}{36}\right) \approx 0.1436 $
+
+$ H(\text{🟩-🟩}) = 0 $ (because $ p = 0 $)
+
+$ H(\text{🟪-🟪}) = 0 $ (because $ p = 0 $)
+
+$ H(\text{🟨-🟨}) = 0 $ (because $ p = 0 $)
+
+$ H(\text{🔳-🔳}) = -\frac{5}{12} \log_2(\frac{5}{12} ) \approx 0.5262 $
 
 ### Inverted normalization
 
-1. Inverted normalized entropy of 🔳-🟩: 0.1813
-2. Inverted normalized entropy of 🔳-🟨: 0.1813
-3. Inverted normalized entropy of 🔳-🟪: 0.1813
-4. Inverted normalized entropy of 🟨-🟩: 0.7271
-5. Inverted normalized entropy of 🟪-🟨: 0.7271
-6. Inverted normalized entropy of 🟩-🟪: 0.7271
-7. Inverted normalized entropy of 🟩-🟩: 1.0000
-8. Inverted normalized entropy of 🟪-🟪: 1.0000
-9. Inverted normalized entropy of 🟨-🟨: 1.0000
-10. Inverted normalized entropy of 🔳-🔳: 0.0000
+🔳-🟩: 0.1813
+
+🔳-🟨: 0.1813
+
+🔳-🟪: 0.1813
+
+🟨-🟩: 0.7271
+
+🟪-🟨: 0.7271
+
+🟩-🟪: 0.7271
+
+🟩-🟩: 1.0000
+
+🟪-🟪: 1.0000
+
+🟨-🟨: 1.0000
+
+🔳-🔳: 0.0000
 
 After an inverted normalization, the small entropies are highlighted since they represent the relationships that provide the most information. In the graphical representation, the rarest relationships are the brightest and thickest. Conversely, the relationships that provide less information (recurrent ones) are darker and thiner.
 
@@ -274,7 +301,6 @@ In this small paper, we have only discussed small examples, so it may not be app
 
 $$ {\displaystyle \sum _{i=1}^{n}\left(n-i\right)=\sum _{i=1}^{n-1}i={\frac {n(n-1)}{2}}} $$
 
-
 The dominant term in this expression is $ n^2 $, so we can say that the complexity in terms of asymptotic growth is $ O(n^2) $.
 
 However, achieving this type of intelligence through machines will likely require significant computational resources. The history of computing has repeatedly shown that certain ideas only become efficient once sufficient computation power is available.
@@ -307,6 +333,7 @@ It provides the following features:
 ### Requirements
 
 Developped and tested with Python 3.10
+
 - matplotlib==3.9.2
 - matplotlib-inline==0.1.7
 - networkx==3.3
